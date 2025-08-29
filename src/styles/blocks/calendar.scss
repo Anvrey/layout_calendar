@@ -15,7 +15,7 @@
     width: $day-size;
     border: $border-width solid black;
     position: relative;
-    transition-duration: 0.5s;
+    transition: background-color 0.5s, transform 0.5s;
 
     &::before {
       position: absolute;
